@@ -1,5 +1,5 @@
 import express from "express";
-import database from "../config/database.js";
+import database from "../configs/database.js";
 
 const userRouter = express.Router();
 
@@ -42,4 +42,4 @@ userRouter.delete("/:userId", async (req, res) => {
   res.json({ message: "user berhasil dihapus", result });
 });
 
-export default userRouter
+export default userRouter;

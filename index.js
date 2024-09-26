@@ -1,6 +1,6 @@
 import express from "express";
-import userRouter from "./routers/userRouter.js";
-import postRouter from "./routers/postRouter.js";
+import userRouter from "./routes/userRouter.js";
+import postRouter from "./routes/postRouter.js";
 
 const app = express();
 

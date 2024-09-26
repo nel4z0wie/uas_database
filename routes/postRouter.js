@@ -1,5 +1,5 @@
 import express from "express";
-import database from "../config/database.js";
+import database from "../configs/database.js";
 
 const postRouter = express.Router();
 
